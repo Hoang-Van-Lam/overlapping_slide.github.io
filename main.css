@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 80px;
+  background-color: #1ccd6b;
+  padding: 0px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.header__right {
+  display: flex;
+  gap: 20px;
+}
+
+.header__right > a {
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+/** banner **/
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  background-color: #c5c5c55d;
+  padding: 80px;
+}
+.banner__title {
+  font: bold 120px arial, sans-serif;
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.banner__btn-start,
+.banner__btn-github {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border: 1px dotted #1ccd6b;
+  cursor: pointer;
+}
+
+.banner__btn-start:hover,
+.banner__btn-github:hover {
+  background-color: #1ccd6b;
+  color: #fff;
+}
+
+/** content **/
+.content {
+  padding: 80px 120px 80px 120px;
+  text-align: center;
+}
+
+.content__title {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content__decs {
+  font-size: 18px;
+  margin-top: 30px;
+  font-family: monospace;
+  line-height: 30px;
+}
+
+/** docs **/
+.docs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  background-color: #c5c5c55d;
+  padding: 80px;
+}
+
+.docs__title {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.docs__decs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #c5c5c55d;
+  margin-top: 30px;
+  color: #000000;
+  font-family: monospace;
+}
+
+.footer {
+  height: 80px;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold 18px arial, sans-serif;
+  background-color: #000000;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
