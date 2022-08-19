@@ -59,6 +59,8 @@ body {
   border: none;
   border: 1px dotted #1ccd6b;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .banner__btn-start:hover,
