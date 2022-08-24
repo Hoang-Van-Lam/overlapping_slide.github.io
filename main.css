@@ -1,3 +1,7 @@
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -10,6 +14,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 
 .header__left {
@@ -67,6 +73,17 @@ body {
 .banner__btn-github:hover {
   background-color: #1ccd6b;
   color: #fff;
+}
+
+/** scroll container **/
+.scroll-container {
+  height: 800px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
 }
 
 /** content **/
